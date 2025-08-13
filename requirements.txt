@@ -1,4 +1,4 @@
-azure-ai-vision-imageanalysis
 streamlit
-pillow
-opencv-python
+azure-ai-vision
+python-dotenv
+Pillow
