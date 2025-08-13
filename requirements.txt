@@ -1,0 +1,4 @@
+azure-ai-vision-imageanalysis
+streamlit
+pillow
+opencv-python
