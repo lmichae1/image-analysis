@@ -1,4 +1,4 @@
 streamlit
-azure-ai-vision
+azure-ai-vision-imageanalysis==1.0.0
 python-dotenv
-Pillow
+pillow
