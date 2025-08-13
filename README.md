@@ -44,15 +44,22 @@ This project demonstrates the following Azure AI Vision concepts:
 
 ### Setup
 1. Clone the repository:
+```bash
 git clone https://github.com/lmichae1/image-analysis.git
 cd visionary-ai-analyzer
-
+```
 2. Install dependencies
+```
 pip install -r requirements.txt
+```
 
 3. Add your Azure credentials in .env:
+```
 AZURE_ENDPOINT=your_azure_endpoint
 AZURE_KEY=your_azure_key
+```
 
 4. Run the app:
+```
 streamlit run app.py
+```
