@@ -90,6 +90,6 @@ if uploaded_file is not None:
     st.markdown("---")  # horizontal line
     today = datetime.now().strftime("%Y-%m-%d")
     st.markdown(
-        f"<p style='text-align:center; color:gray;'>📅 {today} &nbsp;&nbsp;|&nbsp;&nbsp; Demo built for learning and demonstration purposes using Azure AI Vision &nbsp;&nbsp;|&nbsp;&nbsp; Signature: lmichae1, 2025</p>",
+        f"<p style='text-align:center; color:gray;'>📅 {today} &nbsp;&nbsp;|&nbsp;&nbsp; Demo built for learning and demonstration purposes using Azure AI Vision &nbsp;&nbsp;|&nbsp;&nbsp; Michael Lee, 2025</p>",
         unsafe_allow_html=True
     )
