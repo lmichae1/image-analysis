@@ -9,6 +9,7 @@ See the LICENSE file in the repository root for details.
 import streamlit as st
 from azure_client import analyze_image, extract_text, show_objects, show_people
 from PIL import Image
+from datetime import datetime
 
 st.set_page_config(page_title="AI Media Analyzer", layout="wide")
 st.title("AI-powered Media Analyzer Demo")
