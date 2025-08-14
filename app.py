@@ -11,7 +11,7 @@ from azure_client import analyze_image, extract_text, show_objects, show_people
 from PIL import Image
 
 st.set_page_config(page_title="AI Media Analyzer", layout="wide")
-st.title("👁️ Visionary: AI-powered Media Analyzer")
+st.title("AI-powered Media Analyzer Demo")
 st.write("Upload an image to analyze objects, tags, people, and extract text using Azure AI Vision.")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
@@ -83,3 +83,12 @@ if uploaded_file is not None:
     st.subheader("🔍 Extracted Text (OCR)")
     text_result = extract_text(uploaded_file)
     st.text(text_result if text_result else "No text found.")
+
+
+    # --- Footer ---
+    st.markdown("---")  # horizontal line
+    today = datetime.now().strftime("%Y-%m-%d")
+    st.markdown(
+        f"<p style='text-align:center; color:gray;'>📅 {today} &nbsp;&nbsp;|&nbsp;&nbsp; Demo built for learning and demonstration purposes using Azure AI Vision &nbsp;&nbsp;|&nbsp;&nbsp; Signature: lmichae1, 2025</p>",
+        unsafe_allow_html=True
+    )
